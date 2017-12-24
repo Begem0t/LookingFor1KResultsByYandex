@@ -1,0 +1,1 @@
+# LookingFor1KResultsByYandex
