@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="YandexTests" verbose="1">
+    <listeners>
+        <listener class-name="selenium.SeleniumRunListener"/>
+    </listeners>
+
+    <test name="YandexTest">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="searchstring" value="testYandexPage"/>
+        <classes>
+            <class name="YandexTest"/>
+        </classes>
+    </test>
+</suite>
